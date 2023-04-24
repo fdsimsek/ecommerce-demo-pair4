@@ -12,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @Table(name = "address")
 @Entity
+
 public class Address {
 
     @Id
