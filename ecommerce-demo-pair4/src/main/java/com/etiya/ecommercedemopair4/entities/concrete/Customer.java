@@ -17,6 +17,12 @@ public class Customer {
     @Column
     private int id;
 
+    @Column(name = "company_name")
+    private String companyName;
+
+    @Column(name = "contact_name")
+    private String contactName;
+
     @Column(name = "email_address")
     private String emailAddress;
 
